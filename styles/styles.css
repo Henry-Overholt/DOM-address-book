@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),
+    url("../Assets/background.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+
+  /* background-image: ; */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  margin: 5px;
+  background: rgb(179, 178, 176, 0.6);
+  font-family: "Maven Pro";
+}
+.title {
+  align-self: center;
+  color: white;
+}
+input {
+  background: #fff;
+  border-radius: 5px;
+}
+.contactsListed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div {
+  font-family: "Maven Pro";
+  width: 25%;
+  position: relative;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.trash-btn {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  transform: translateX(50%);
+  margin: 0;
+  border-radius: 50%;
+}
