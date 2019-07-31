@@ -25,6 +25,7 @@ form {
 .title {
   align-self: center;
   color: white;
+  font-size: 20px;
 }
 input {
   background: #fff;
@@ -52,4 +53,5 @@ div {
   transform: translateX(50%);
   margin: 0;
   border-radius: 50%;
+  color: red;
 }
